@@ -59,26 +59,88 @@ const cppQuestions = {
     },
   ],
 
-  Tokens: [
+  "Chapter 2 - Arrays": [
     {
-      question: "Which of the following is not a C++ token?",
-      options: ["Keyword", "Identifier", "Pointer", "Operator"],
-      answer: "Pointer",
+      question:
+        "Accessing each element of an array at least once to perform any operation is known as __________ operation.",
+      options: ["Insertion", "Traversal", "Sorting", "Searching"],
+      answer: "Traversal",
     },
     {
-      question: "Which symbol is used to denote a preprocessor directive?",
-      options: ["@", "#", "$", "&"],
-      answer: "#",
+      question: "Which character is stored at the end of a string in C++?",
+      options: ["\\0", "\\n", "#", "/t"],
+      answer: "\\0",
     },
     {
-      question: "Which of the following is a valid identifier in C++?",
-      options: ["123abc", "_abc", "int", "if"],
-      answer: "_abc",
+      question:
+        "Which C++ statement declares an array to store a student's name with size 25?",
+      options: [
+        "character student[25];",
+        "string name[25];",
+        "char name[25];",
+        "char name = 25;",
+      ],
+      answer: "char name[25];",
     },
     {
-      question: "Which of these is an example of a keyword in C++?",
-      options: ["class", "main", "printf", "scanf"],
-      answer: "class",
+      question:
+        "Which is the correct way to initialize an array MARK with values 70, 80, 85, 90?",
+      options: [
+        "int MARK = {70,80,85,90};",
+        "int MARK[4] = {70,80,85,90};",
+        "MARK[] = {70,80,85,90};",
+        "int MARK[4];",
+      ],
+      answer: "int MARK[4] = {70,80,85,90};",
+    },
+    {
+      question:
+        "Which is the correct way to declare an integer array of size 10?",
+      options: [
+        "int num(10);",
+        "int num[10];",
+        "array num[10];",
+        "int num = 10;",
+      ],
+      answer: "int num[10];",
+    },
+    {
+      question: "How much space is allotted for char name[5]?",
+      options: ["10 bytes", "20 bytes", "5 bytes", "1 byte"],
+      answer: "5 bytes",
+    },
+    {
+      question: "What is the space allotted for double num[10]?",
+      options: ["10 bytes", "80 bytes", "40 bytes", "8 bytes"],
+      answer: "80 bytes",
+    },
+    {
+      question: "An array element is accessed using its _______.",
+      options: ["Index value", "Address", "Length", "Pointer"],
+      answer: "Index value",
+    },
+    {
+      question:
+        "Printing all the elements of an array is an example of ______ operation.",
+      options: ["Sorting", "Traversal", "Searching", "Selection"],
+      answer: "Traversal",
+    },
+    {
+      question: "A string can be considered as an array of ________.",
+      options: ["Integers", "Words", "Characters", "Floats"],
+      answer: "Characters",
+    },
+    {
+      question:
+        "Which header file is required for gets() and puts() functions in C++?",
+      options: ["iostream", "stdio.h", "cstdio", "string"],
+      answer: "cstdio",
+    },
+    {
+      question:
+        "What will be the output of the following C++ code if the input is 'Computer Programming'?\n\nchar text[20];\ncin >> text;\ncout << text;",
+      options: ["Computer Programming", "Computer", "Programming", "Error"],
+      answer: "Computer",
     },
   ],
 };
