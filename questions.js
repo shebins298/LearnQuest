@@ -138,7 +138,7 @@ const cppQuestions = {
     },
     {
       question:
-        "What will be the output of the following C++ code if the input is 'Computer Programming'?<code>char text[20];<br>cin&gt;&gt;text;<br>cout&lt;&lt;text;</code>",
+        "What will be the output of the following C++ code if the input is 'Computer Programming'?<code><br>char text[20];<br>cin&gt;&gt;text;<br>cout&lt;&lt;text;</code>",
 
       options: ["Computer Programming", "Computer", "Programming", "Error"],
       answer: "Computer",
